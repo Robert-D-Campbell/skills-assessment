@@ -1,0 +1,89 @@
+* {
+  font-family: verdana;
+}
+table {
+  border: 1px solid #4A4A4A;
+  border-radius: 14px;
+  border-collapse: collapse;
+  overflow: hidden;
+}
+th {
+  font-size: 14px;
+  background: #2E2E2E;
+  text-align: left;
+  color: white;
+  padding: 14px;
+  font-weight: 200;
+}
+span {
+  vertical-align: middle;
+  margin-left: 8px;
+  margin-right: 8px;
+  width: 8px;
+  height: 8px;
+  background-color: #00FF23;
+  border-radius: 50%;
+  display: inline-block;
+  
+}
+td{
+  vertical-align: middle;
+  border-top: 2px solid #141414;
+  border-left: 1px solid #1C1C1C;
+  font-size: 12px;
+  font-weight: 100;
+  color: white;
+  padding: 8px 30px 12px 8px;
+}
+tr:nth-child(even) {
+  background-color: #212121;
+}
+tr:nth-child(odd) {
+  background-color: #1A1A1A;
+}
+td:nth-child(even) {
+  color: #535353;
+}
+select {
+  cursor: pointer;
+  float: right;
+  outline: none;
+}
+.collapsed {
+  position: absolute;
+  line-height: 2;
+  list-style: none;
+  padding: 0 20px 2px 8px;
+  background: #484848;
+  left: 120px;
+  display: none;
+}
+.expanded {
+  position: absolute;
+  line-height: 1;
+  list-style: none;
+  padding: 0 20px 2px 9px;
+  margin-left: 0px;
+  background: #484848;
+  left: 120px;
+  color: white;
+  display: block;
+}
+tr.contact-scott.active {
+    background: #484848;
+}
+tr.contact-scott.active>.phone-email {
+    color: #13D4D3;
+    text-decoration: underline;
+    border-left: none;
+}
+.location{
+    max-width: 130px;
+    padding-right: 10px;
+    padding-bottom: 18px;
+    margin-top: 6px;
+    margin-left: 10px;
+}
+ul li {
+    margin-left: 10px;
+}

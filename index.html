@@ -1,0 +1,74 @@
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+    <script src="app.js"></script>
+    <table class="contact-table">
+        <tr class="contact">
+            <th class="contact-header" colspan="2">Contacts</th>
+        </tr>
+        <tr class="contact">
+            <td class="info"><span></span>
+                Christian</td>
+            <td class="phone-email">christian@yahoo.com</td>
+        </tr>
+        <tr class="contact">
+            <td class="info"><span></span>
+                Rich</td>
+            <td class="phone-email">rich@tripod.com</td>
+        </tr>
+        <tr class="contact-scott" onclick="expandFunction()">
+            <td class="info" ><span></span>
+                Scott</td>
+            <td class="phone-email">scott@mailinator.com
+                <ul class="collapsed">
+                    <li>555.555.5555</li>
+                    <br />
+                    <li class="location">6539 Wilton Ave.
+                    Culver City CA 90234
+                    </li>
+                </ul>
+            </td>
+        </tr>
+        <tr class="contact">
+            <td class="info"><span></span>
+                Danny</td>
+            <td class="phone-email">danny@hotmail.com</td>
+        </tr>
+        <tr class="contact">
+            <td class="info"><span style="background-color: #FF0407"></span>
+                Taka</td>
+            <td class="phone-email">taka@myspace.com</td>
+        </tr>
+        <tr class="contact">
+            <td class="info"><span style="background-color: #C6BD16"></span>
+                Tim</td>
+            <td class="phone-email">tim@netscape.com</td>
+        </tr>
+        <tr class="contact">
+            <td class="info"><span></span>
+                Patrick</td>
+            <td class="phone-email">patrick@live.com</td>
+        </tr>
+        <tr class="contact">
+            <td class="info"><span style="background-color: #FBFA00"></span>
+                Jacques</td>
+            <td class="phone-email">jacques@aol.com</td>
+        </tr>
+        <tfoot>
+            <tr>
+                <td colspan="2">
+                    <select onChange="emailFunction()" id="select">
+                        <option id="email" value="email">Email address</option>
+                        <option id="phone" value="phone">Phone number</option>
+                    </select>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
